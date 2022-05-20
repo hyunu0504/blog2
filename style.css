@@ -1,0 +1,59 @@
+.sty {
+  padding: 30px;
+  border: solid powderblue 5px;
+  border-radius: 50%;
+  color: rgba(0, 123, 255, 0.399);
+  font-size: 32px;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container {
+  width: 80%;
+  background-color: #eee;
+  height: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+.navB {
+  margin-bottom: 30px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content1 {
+  background-color: gray;
+  width: 25%;
+}
+.content2 {
+  background-color: orange;
+  width: 25%;
+  text-align: center;
+}
+.content3 {
+  background-color: red;
+  width: 25%;
+  text-align: center;
+}
+.content4 {
+  background-color: green;
+  width: 25%;
+  text-align: center;
+}
+@media screen and (max-width: 1023px) {
+  .content1,
+  .content2,
+  .content3,
+  .content4 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content1,
+  .content2,
+  .content3,
+  .content4 {
+    width: 100%;
+  }
+}
